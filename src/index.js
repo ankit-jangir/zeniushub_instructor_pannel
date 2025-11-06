@@ -2,7 +2,7 @@ const express = require("express");
 require("dotenv").config();
 const cors = require("cors");
 const { PORT } = require("./config/server.config");
-const { router } = require("./route/index"); // Adjust path if needed
+const { router } = require("./route/index"); // Adjust path if needed//
 const setupSocket = require("./Socket");
 
 // use for wrap your express App because socket.io requires direct access to the http server to attach itself for real-time communication
